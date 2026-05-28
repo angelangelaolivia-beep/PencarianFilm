@@ -5,7 +5,7 @@ include "../controller/FilmController.php";
 $controller = new FilmController();
 
 $controller->updateData(
-    $_POST['id'],
+    $_POST['id_film'],
     $_POST['judul'],
     $_POST['genre'],
     $_POST['tahun'],
